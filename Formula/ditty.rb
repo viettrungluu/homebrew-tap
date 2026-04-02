@@ -29,8 +29,9 @@ class Ditty < Formula
   end
 
   def install
-    # The tarball extracts to ditty-OS-ARCH/ditty.
-    bin.install Dir["ditty-*/ditty"].first
+    # Homebrew strips the single top-level directory from the tarball,
+    # so the binary is directly available as "ditty".
+    bin.install "ditty"
   end
 
   test do

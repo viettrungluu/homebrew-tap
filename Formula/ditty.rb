@@ -1,30 +1,30 @@
 class Ditty < Formula
   desc "Convert line-interactive programs (REPLs, debuggers) into CLI programs"
   homepage "https://github.com/viettrungluu/ditty"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.0/ditty-darwin-arm64.tar.gz"
-      sha256 "1eace938680bbc38d8a1905b2b6fd3a61c6af8cdf9bcae4354e33dc2b12434e4"
+      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.1/ditty-darwin-arm64.tar.gz"
+      sha256 "68e454da4b7c7028b50faa42ef0f865fa804800486c447e12840beecd5ac1390"
     end
 
     on_intel do
-      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.0/ditty-darwin-amd64.tar.gz"
-      sha256 "2b62312328bd337c1a3f245a998392862e0cc2b21fcd6e256fac7b193f5477e0"
+      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.1/ditty-darwin-amd64.tar.gz"
+      sha256 "78099f38ff03a4c39e8464490512865bbd7791b8053a5ff06b33ed23fbc5041b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.0/ditty-linux-arm64.tar.gz"
-      sha256 "46b75a05d09dde625197f7eae4a9196f83f2774b54890996a46c8af2f918eb6c"
+      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.1/ditty-linux-arm64.tar.gz"
+      sha256 "9c1d50fa4e96c8e0171b93df8e102aa4bba9d6447e1215f986d57d5fa3aef303"
     end
 
     on_intel do
-      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.0/ditty-linux-amd64.tar.gz"
-      sha256 "1d5430d6d3ee48ac2571ca26d1529872c658b4bbc2982c0729acc9208108ee42"
+      url "https://github.com/viettrungluu/ditty/releases/download/v0.5.1/ditty-linux-amd64.tar.gz"
+      sha256 "d678c9dcf50a85d1e2470959f838c7fd5f620042f4f4ebba2a60555d355650ea"
     end
   end
 
